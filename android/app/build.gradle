@@ -1,6 +1,11 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+
+// video call fire base
+apply plugin: 'com.google.gms.google-services'
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -108,9 +113,16 @@ android {
 }
 
 dependencies {
-    // The version of react-native is set by the React Native Gradle Plugin
+    // for gif support
+    implementation 'com.facebook.fresco:animated-gif:3.6.0'
+
+    // React Native core
     implementation("com.facebook.react:react-android")
 
+    // Add react-native-incall-manager
+    implementation project(':react-native-incall-manager')
+
+    // Hermes or JSC
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {

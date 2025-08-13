@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "811335344919",
+    "project_id": "urban-scrapman",
+    "storage_bucket": "urban-scrapman.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811335344919:android:4fcba200feb7d946a14d52",
+        "android_client_info": {
+          "package_name": "com.mediisist_doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABhHWTNr9dDfhpga-6UMQliuMqwvGRBKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811335344919:android:1cd411aac8a1b6a0a14d52",
+        "android_client_info": {
+          "package_name": "com.urbanscrapman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABhHWTNr9dDfhpga-6UMQliuMqwvGRBKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
